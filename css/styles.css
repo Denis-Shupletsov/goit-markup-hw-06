@@ -662,6 +662,25 @@ img {
 .footer-icons {
     fill: currentColor;
 }
+
+            /*Рассылка-- subscribe-footer */
+.subscribe-footer {
+    display: block;
+    margin-left: 93px;
+    width: auto;
+    height: 86px;
+}
+
+.subscribe-footer-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
         /* backdrop----Молальное окно */
 .backdrop.is-hidden {
     opacity: 0;
