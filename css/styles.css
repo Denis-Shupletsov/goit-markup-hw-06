@@ -748,7 +748,7 @@ img {
 
 .modal-form {
 
-    /* display: flex; */
+    display: block;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -762,4 +762,25 @@ img {
     text-align: center;
     vertical-align: top;
     color: var(--header-section-text-color);    
+}
+
+.modal-form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modal-label {
+    margin-bottom: 4px;
+}
+
+.modal-input {
+    display: block;
+    width: 100%;
+
+    margin: 0;
+    padding: 12px 42px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
