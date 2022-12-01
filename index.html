@@ -387,11 +387,14 @@
         </button>
     
         <form class="modal-form">
-            <h2 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <h3 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h3>
     
             <div class="modal-form-field">
                 <label class="modal-label" for="modal-name">Ім'я</label>
                 <input class="modal-input" type="text" name="user-name" id="modal-name" />
+                    <!-- <svg width="12px" height="12px" class="modal-icon-name"> -->
+                        <user href=""></user>
+                    </svg>
             </div>
 
             <div class="modal-form-field">
@@ -404,6 +407,15 @@
                 <input class="modal-input" type="mail" name="user-email" id="modal-mail" />
             </div>
 
+            <div class="modal-form-field">
+                <label class="modal-label" for="modal-comment">Коментар</label>
+                <textarea class="modal-textarea-comment" name="comment" id="modal-comment" placeholder="Введіть текст"></textarea>
+            </div>
+
+            <div class="modal-checkbox">
+                <input class="checkbox" type="checkbox" name="topic" value="specific" id="checkbox">
+                <label class="modal-label-checkbox" for="checkbox"></label>
+            </div>
         </form>
     </div>
 </div>
