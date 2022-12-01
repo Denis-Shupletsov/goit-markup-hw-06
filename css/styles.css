@@ -747,13 +747,14 @@ img {
 }
 
 .modal-form {
-    display: flex;
+
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     width: 100%;
 }
 
-.modal-text-data {
+.modal-form-title {
     margin-bottom: 12px;
     font-size: 20px;
     font-weight: 700;
