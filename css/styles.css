@@ -681,6 +681,7 @@ img {
 }
 
 
+
         /* backdrop----Молальное окно */
 .backdrop.is-hidden {
     opacity: 0;
@@ -703,11 +704,14 @@ img {
 }
 
 .modal {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 40px;
+
     position: absolute;
     top: 50%;
     left: 50%;
     
-
     min-width: 528px;
     min-height: 581px;
     
@@ -740,4 +744,21 @@ img {
 
     color: #000000;
     background-color: var(--main-text-color);
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.modal-text-data {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    vertical-align: top;
+    color: var(--header-section-text-color);    
 }
