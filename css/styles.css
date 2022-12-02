@@ -878,6 +878,10 @@ img {
     border-radius: 4px;
 }
 
+.modal-checkbox {
+
+}
+
 .checkbox{
 
 } 
@@ -889,6 +893,9 @@ img {
     text-align: center;
 }
 
+.terms {
+    color: var(--focus-color);
+}
 
 .form-button {
     display: block;
