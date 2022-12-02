@@ -418,7 +418,12 @@
 
             <div class="modal-form-field">
                 <label class="modal-label" for="modal-mail">Пошта</label>
-                <input class="modal-input" type="mail" name="user-email" id="modal-mail" />
+                <div class="modal-input-icon">
+                    <input class="modal-input" type="mail" name="user-email" id="modal-mail" />
+                    <svg width="18px" height="18px" class="modal-icon-name">
+                        <use href="./symbol-defs.svg#icon-email-black-18dp-1"></use>
+                    </svg>
+                </div>
             </div>
 
             <div class="modal-form-field">
@@ -428,7 +433,7 @@
 
             <div class="modal-checkbox">
                 <input class="checkbox" type="checkbox" name="topic" value="specific" id="checkbox">
-                <label class="modal-label-checkbox" for="checkbox">Погоджуюся з розсилкою та приймаю Умови договору</label>
+                <label class="modal-label-checkbox" for="checkbox">Погоджуюся з розсилкою та приймаю <span style="color: #2196F3;">Умови договору</span></label>
             </div>
         </form>
     </div>
