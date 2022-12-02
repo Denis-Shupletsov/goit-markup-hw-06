@@ -667,7 +667,7 @@ img {
 .subscribe-footer {
     display: block;
     margin-left: 93px;
-    width: auto;
+    width: 570px;
     height: 86px;
 }
 
@@ -684,6 +684,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .subscribe-footer-input {
@@ -706,11 +707,14 @@ img {
 }
 
 .subscribe-button {
+    display: flex;
     justify-content: center;
+    align-items: center;
+
     min-width: 200px;
     height: 50px;
-    align-items: center;
-    /* padding: 10px; */
+    padding: 10px;
+
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
@@ -726,6 +730,11 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.fotter-button-icon {
+    
+    padding-left: 10px;
+    fill: var(--main-text-color);
+}
 
         /* backdrop----Молальное окно */
 .backdrop.is-hidden {
@@ -792,7 +801,6 @@ img {
 }
 
 .modal-form {
-
     display: block;
     flex-direction: column;
     justify-content: center;
@@ -801,6 +809,7 @@ img {
 
 .modal-form-title {
     margin-bottom: 12px;
+
     font-size: 20px;
     font-weight: 700;
     line-height: 1.15;
@@ -812,18 +821,28 @@ img {
 .modal-form-field {
     display: flex;
     flex-direction: column;
-    
     margin-bottom: 10px;
 }
 
+.modal-input-icon {
+    position: relative;
+}
+
+.modal-icon-name {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+    
 .modal-label {
+    margin-bottom: 4px;
+    
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     color: rgba(117, 117, 117, 1);
-    letter-spacing: 0.01em;
-
-    margin-bottom: 4px;
+    letter-spacing: 0.01em;   
 }
 
 .modal-input {
@@ -858,20 +877,3 @@ img {
     border-radius: 4px;
 }
 
-/* .modal-checkbox {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.checkbox {
-    position: absolute;
-    overflow: hidden;
-
-    width: 1px;
-    height: 1px;
-
-    padding: 0;
-    margin: 0;
-    border: 0;
-    
-} */

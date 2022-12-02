@@ -377,11 +377,8 @@
                     <input class="subscribe-footer-input" type="text" name="user-email" id="mail" placeholder="E-mail">
                 </div>
                     <button class="subscribe-button" type="submit">Підписатися
-                        <svg>
-                            <use href=""></use>
-
-                            
-                        </svg>
+                        <svg width="24px" height="24px" class="fotter-button-icon">
+                            <use href="./symbol-defs.svg#icon-icon-send"></use></svg>
                     </button>
             </form>
         </div>
@@ -401,15 +398,22 @@
     
             <div class="modal-form-field">
                 <label class="modal-label" for="modal-name">Ім'я</label>
-                <input class="modal-input" type="text" name="user-name" id="modal-name" />
-                    <!-- <svg width="12px" height="12px" class="modal-icon-name"> -->
-                        <user href=""></user>
-                    </svg>
+                <div class="modal-input-icon">
+                    <input class="modal-input" type="text" name="user-name" id="modal-name" />
+                        <svg width="18px" height="18px" class="modal-icon-name">
+                            <use href="./symbol-defs.svg#icon-person-black-18dp-1"></use>
+                        </svg>
+                </div>
             </div>
 
             <div class="modal-form-field">
                 <label class="modal-label" for="modal-tel">Телефон</label>
-                <input class="modal-input" type="tel" name="user-tel" id="modal-tel" />
+                <div class="modal-input-icon">
+                    <input class="modal-input" type="tel" name="user-tel" id="modal-tel" />
+                    <svg width="18px" height="18px" class="modal-icon-name">
+                        <use href="./symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                    </svg>
+                </div>
             </div>
 
             <div class="modal-form-field">
@@ -424,7 +428,7 @@
 
             <div class="modal-checkbox">
                 <input class="checkbox" type="checkbox" name="topic" value="specific" id="checkbox">
-                <label class="modal-label-checkbox" for="checkbox"></label>
+                <label class="modal-label-checkbox" for="checkbox">Погоджуюся з розсилкою та приймаю Умови договору</label>
             </div>
         </form>
     </div>
