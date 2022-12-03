@@ -215,7 +215,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     letter-spacing: 0.06em;
     text-align: center;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero .button:hover,
@@ -729,8 +729,13 @@ img {
     border-width: 0;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.subscribe-button:hover {
+    opacity: 0.9;
+}
 .fotter-button-icon {
     padding-left: 10px;
     fill: var(--main-text-color);
@@ -952,5 +957,10 @@ img {
 
     background-color: var(--focus-color);
     color: var(--main-text-color);
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-button:hover {
+    opacity: 0.9;
+}
