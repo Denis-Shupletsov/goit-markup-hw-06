@@ -916,11 +916,19 @@ img {
 }
 
 .modal-checkbox {
+    position: relative;
+}
 
+.modal-label-checkbox::before {
+    content: "";
+    position: absolute;
+    
 }
 
 .checkbox{
+    appearance: none;
 
+    /* position: absolute; */
 } 
 
 .modal-label-checkbox {
