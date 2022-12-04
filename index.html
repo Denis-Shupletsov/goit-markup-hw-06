@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
             integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -271,6 +271,7 @@
                                     </li>
                                 </ul>
                         </ul>
+                </div>
             </section>
                                         <!-- section-subtitle-company-items -->
             <section class="section list">
@@ -394,43 +395,43 @@
         </button>
     
         <form class="modal-form">
-            <h3 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h3>
+            <p class="modal-form-title">Залиште свої дані, ми вам передзвонимо</p>
     
             <div class="modal-form-field">
                 <label class="modal-label">Ім'я
-                    <div class="modal-input-icon">
-                        <input class="modal-input" type="text" name="user-name" />
+                    <span class="modal-input-icon">
+                        <input class="modal-input" type="text" name="user-name">
                             <svg width="18px" height="18px" class="modal-icon-name">
                                 <use href="./symbol-defs.svg#icon-person-black-18dp-1"></use>
                             </svg>
-                    </div>
+                    </span>
                 </label>
             </div>
 
             <div class="modal-form-field">
                 <label class="modal-label">Телефон
-                    <div class="modal-input-icon">
-                        <input class="modal-input" type="tel" name="user-tel" />
+                    <span class="modal-input-icon">
+                        <input class="modal-input" type="tel" name="user-tel">
                         <svg width="18px" height="18px" class="modal-icon-name">
                             <use href="./symbol-defs.svg#icon-phone-black-18dp-1"></use>
                         </svg>
-                    </div>
+                    </span>
                 </label>
             </div>
 
             <div class="modal-form-field">
                 <label class="modal-label">Пошта
-                    <div class="modal-input-icon">
-                        <input class="modal-input" type="mail" name="user-email" />
+                    <span class="modal-input-icon">
+                        <input class="modal-input" type="email" name="user-email">
                         <svg width="18px" height="18px" class="modal-icon-name">
                             <use href="./symbol-defs.svg#icon-email-black-18dp-1"></use>
                         </svg>
-                    </div>
+                    </span>
                 </label>
             </div>
 
             <div class="modal-form-field">
-                <label class="modal-label" for="modal-comment">Коментар
+                <label class="modal-label">Коментар
                     <textarea class="modal-textarea-comment" name="comment" placeholder="Введіть текст"></textarea>
                 </label>
             </div>
@@ -438,12 +439,12 @@
             <div class="modal-checkbox">
                 <label class="modal-label-checkbox">Погоджуюся з розсилкою та приймаю 
                     <a class="terms" href="#">Умови договору</a>
-                    <div class="checkbox-icon">
-                        <input class="checkbox" type="checkbox" name="topic" value="specific" />
+                    <span class="checkbox-icon">
+                        <input class="checkbox" type="checkbox" name="topic" value="specific">
                             <svg width="16px" height="15px" class="modal-icon-checkbox">
                                 <use href="./symbol-defs.svg#icon-icon-check-1"></use>
                             </svg>
-                    </div>
+                    </span>
                 </label>
                 
             </div>
